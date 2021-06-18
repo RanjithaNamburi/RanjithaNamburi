@@ -1,0 +1,291 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~adp-css-framework/scss/config";
+@import "~adp-css-framework/scss/variables/index";
+@import "~adp-css-framework/scss/mixins/index";
+@import "~adp-css-framework/scss/vendor/normalize";
+@import "~adp-css-framework/scss/global/html";
+@import "~adp-css-framework/scss/global/grid";
+@import "~adp-css-framework/scss/vendor/html5boilerplate-print";
+
+@import '~adp-css-framework/scss/index';
+
+.imms-success{
+    border:1px solid #1a871a;
+    padding: 1px 9px;
+    border-radius: 10px;
+    color: #1a871a;
+}
+.imms-warning{
+    border:1px solid #ffb400;
+    padding: 1px 9px;
+    border-radius: 10px;
+    color: #ffb400;
+}
+.imms-warning-count{
+    background-color: #ffb400;
+    color: #fff;
+    padding: 0px 6px;
+    border-radius: 50%;
+    margin: 0px 0;
+    position: relative;
+    right: 0;
+    margin-left: 5px;
+}
+.imms-success-count{
+    background-color: #1a871a;
+    color: #fff;
+    padding: 0px 6px;
+    border-radius: 50%;
+    margin: 0px 0;
+    position: relative;
+    right: 0;
+    margin-left: 5px;
+}
+.imms-danger{
+    // background-color: #F47B19;
+    border: 1px solid #F47B19;
+    padding: 1px 9px;
+    border-radius: 10px;
+    color: #F47B19;
+}
+.imms-danger-count{
+    background-color: #F47B19;
+    color: #fff;
+    padding: 0px 6px;
+    border-radius: 50%;
+    margin: 0px 0;
+    position: relative;
+    right: 0;
+    margin-left: 5px;
+}
+.hold-icon{
+  background: #3ebede;
+  color: #fff;
+  padding: 0px 3px;
+  font-weight: bold;
+  border-radius: 3px;
+  position: relative;
+  font-size: 13px;
+}
+.imms-initial {
+  background-color: #bbbbbb;
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 5px;
+  margin: 0px 0;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.imms-rej {
+  background-color: #d40f0f;
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 5px;
+  margin: 0px 0;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.imms-partial {
+  background-color: #F47B19;
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 5px;
+  margin: 0px 0;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.imms-full {
+  background-color: #1a871a;
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 5px;
+  margin: 0px 0;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.imms-begin {
+  background-color: #086274;
+  color: #fff;
+  padding: 0px 6px;
+  border-radius: 5px;
+  margin: 0px 0;
+  position: relative;
+  right: 0;
+  margin-left: 5px;
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.cts-hold-count {
+  color: inherit;
+  padding: 0px 5px;
+  text-align: center;
+}
+.cts-hold-i-c {
+  border: 1px solid #3ebede;
+  border-radius: 5px;
+  color: #3ebede;
+  font-size: 13px;
+  position: relative;
+}
+.count-circle{
+  text-align: center;
+  width: 16px;
+  border-radius: 50%;
+  font-size: 11px;
+  cursor: pointer;
+}
+.risk-count{
+  float: right;
+  background: #1a8099;
+  color: #fff;
+}
+.hold-count{
+  background-color: #3ebede;
+  color: #fff;
+}
+.status-text {
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+}
+.comments-icon-color {
+  color: #0e5061;
+}
+.impound-icon-color {
+  color: #51dc51;
+}
+.service-charge-icon-color {
+  color: #3ebede;
+}
+
+.vdl-slidein__footer {
+  display: none !important;
+}
+
+.page-header {
+  color: #000000;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 20px;
+}
+
+.receipt-icon{
+  background: #1a871a;
+  color: #fff;
+  padding: 0px 3px;
+  font-weight: bold;
+  border-radius: 3px;
+  position: relative;
+  font-size: 11px;
+}
+
+adp-toaster {
+  display: inline !important;
+}
+
+adp-datagrid-header .adp-datagrid-header__label-wrapper {
+  text-transform: none;
+  font-size: 13px;
+}
+.version{
+  border: 1px solid #2adbad;
+    border-radius: 5px;
+    color: #2adbad;
+    font-size: 10px;
+    position: relative;
+    margin: 0;
+    padding-right: 3px;
+    float: right;
+    top: 4px;
+    .rct-count{
+      font-size: 11px;
+      padding: 0px 5px;
+    }
+}
+.version-icon{
+    background: #2adbad;
+    color: #fff;
+    padding: 0px 2px;
+    font-weight: bold;
+    border-radius: 3px;
+    position: relative;
+    font-size: 11px;
+    margin-left: -1px;
+}
+.avbReceipt{
+  border: 1px solid #f47b19;
+  border-radius: 5px;
+  color: #f47b19;
+  font-size: 10px;
+  position: relative;
+  margin: 0;
+  padding-right: 3px;
+  font-size: 13px;
+}
+.avbReceipt-icon{
+  background: #f47b19;
+  color: #fff;
+  padding: 0px 5px;
+  font-weight: bold;
+  border-radius: 3px;
+  position: relative;
+  margin-left: -1px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+// :host ::ng-deep{
+// .control-popup.vdl-popover.right-bottom{
+//   height: 200px!important;
+// }
+// }
+adp-button.vdl-button--disabled{
+  pointer-events: none!important;
+}
+
+
+body .view-permission-popO{
+  padding: 0 !important;
+  border: 0 !important;
+  box-shadow: unset !important;
+}
+body .view-permission-popO .vdl-popover__container .popover-title{
+  display: none !important;
+}
+.pointer {
+  cursor: pointer;
+}
+.vdl-calendar-popup {
+  z-index: 2101 !important;
+}
+.trace-icon {
+  color: #ffffff;
+  background-color: #8100a1;
+  font-weight: bold;
+  padding: 0px 5px;
+  border-radius: 3px;
+}
+.p-l-10 {
+  padding-left: 10px;
+}
