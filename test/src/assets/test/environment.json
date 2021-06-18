@@ -1,0 +1,45 @@
+{
+  "environment": "LOCAL",
+  "config": {
+    "auth": {
+      "clientId": "90dd9efb-559e-4bb4-9f94-d5a972b07584",
+      "authority": "https://login.microsoftonline.com/4c2c8480-d3f0-485b-b750-807ff693802f/",
+      "validateAuthority": true,
+      "redirectUri": "http://localhost:4200/",
+      "postLogoutRedirectUri": "http://localhost:4200/",
+      "navigateToLoginRequestUrl": true
+    }
+  },
+  "angularConfig": {
+    "popUp": false,
+    "consentScopes": [
+      "user.read",
+      "openid",
+      "profile"
+    ],
+    "unprotectedResources": [],
+    "protectedResourceMap": [
+      [
+        "https://graph.microsoft.com/v1.0/",
+        [
+          "user.read"
+        ]
+      ]
+    ],
+    "extraQueryParameters": {}
+  },
+  "sessionConfig": {
+    "idle": 3540,
+    "timeout": 60,
+    "idleSensitivity": 1,
+    "ping": 120
+  },
+  "server": {
+    "APIServer": "https://acacdvimmsordsap01.es.ad.adp.com:8443/ords/imm01d/imms/",
+    "instance": "",
+    "AppServer": "",
+    "SpringAPIServer": "https://acacdvimmsordsap01.es.ad.adp.com:8443/immsapi/dev-nr/",
+    "token": "",
+    "SpringAPIServerJWTEnabled": "https://acacdvimmsordsap01.es.ad.adp.com:8444/SpringSecurity/"
+  }
+}
